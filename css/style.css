@@ -1,0 +1,52 @@
+@import url(main.css);
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+body{
+  background: #A3A0A0;
+}
+header nav .top h2{
+  color: #EAD048;
+  -webkit-text-stroke: 1.5px red;
+  font-weight: bold;
+  font-size: 40px;
+  padding: 5px;
+}
+header nav .bottom button{
+  border:none;
+  background: #EAD048;
+  border-radius: 42px;
+  padding: 20px;
+  font-family: 'Inter',sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+}
+header nav .bottom ::after {
+  content:'\203A';
+  padding: 0 20px;
+}
+main {
+  position: relative;
+}
+main .Wheel_of_Fortune{
+  width: 700px;
+  height: 692px;
+  border-radius: 50%;
+  border: 50px solid  #E0BE08;
+}
+main .circles .circle {
+  position: absolute;
+  width: 34px;
+  height: 34px;
+  background: #FFFFFF;
+  border-radius: 50%;
+}
+main .circles .circle_1{
+  top: 1%;
+  left: 49.5%;
+}
+main .circles .circle_2{
+  top: 50%;
+  left: 50%;
+}
